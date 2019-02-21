@@ -1,13 +1,13 @@
 <?php
 
-namespace WPS\Core;
+namespace WPS\WP;
 
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( '\WPS\Core\Page2PageRedirect' ) ) {
+if ( ! class_exists( __NAMESPACE__ . '\Page2PageRedirect' ) ) {
 	/**
 	 * Class Page2PageRedirect
 	 *
